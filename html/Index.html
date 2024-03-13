@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "styles.css" >
+    
+    <title>MesYou</title>
+</head>
+<body>
+    <div class="container-1" id="container-1">
+        <div class="text">
+            <h1 class="introduction">¡Buenos días!</h1>
+            <h2 class="text-name">Introduzca su nombre de usuario</h2>
+                <input class="text-input" type="text" id="name" placeholder="Usuario">
+                <button class="button-input" id="button-input">Acceder</button>
+        </div>
+        <img class="mascota" src="Mascota-Mesyou.png">
+    </div>
+
+    <div class="container-2" id="container-2">
+        <div class="left">
+            <div class="MesYou">
+                <img class="logo" src="Logo MesYou-Proyecto.png">
+                <h1 class="logo-name">MesYou</h1>
+            </div>
+            <div class="conected1">
+                <h1>Personas conectadas</h1>
+                <div class="conected" id="conected">
+            </div>
+            </div>
+        </div>
+        <div class="right" id="right">
+                <div class="chat" id="chat">
+                    <h1 class="chat-title">Chat</h1>
+                </div>
+                <div class="chat-input">
+                    <input class="text-chat" type="text-chat" id="text-chat" placeholder="Escribe un mensaje">
+                    <button class="button-chat" id="button-chat">Enviar</button>
+                </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="client.js" charset="utf-8"></script>
+</body>
+</html>

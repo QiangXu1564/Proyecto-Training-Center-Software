@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(22, 53, 34);
+    color: white;
+    font-family: Times ;
+}
+
+.top{
+    display: flex;
+    flex-flow: row;
+    align-items: left;
+}
+.search{
+    display: flex;
+    flex-flow: row;
+    align-items: right;
+}
+
+.profile-picture{
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+
+.intro{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.introduction{
+    color: #ffffff;
+}
+
+.name{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-name{
+    font-size: 40px;
+}
+
+.input{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.text-input{
+    font-size: 30px;
+}
+
+.button{
+    padding-top: 20px;
+}
+
+.accept{
+    font-size: 30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: skyblue;
+    font-family: sans-serif;
+}

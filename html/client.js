@@ -67,7 +67,7 @@ buttonchat.addEventListener('click', function(){
         Message: textchat.value,
         Min: '0' + min.getMinutes(),
         Hor: '0' + hor.getHours()
-    });
+    }); 
     textchat.value = "";
 });
 

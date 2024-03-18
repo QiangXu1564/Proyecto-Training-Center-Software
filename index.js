@@ -5,11 +5,10 @@ const app = express();
 let arr = new Array(), arr2 = new Array(), arrM = new Array(), arrU = new Array(), arrMin = new Array(), arrHor = new Array();
 let m = 0;
 let n = 0;
-//Ajustes
+//Pone el servidor
 app.set('port', process.env.PORT || 8080);
 //Archivos estáticos
 app.use(express.static(path.join(__dirname, 'html')));
-
 //Ejecuta el servidor
 const server = app.listen(app.get('port'), () => {
     console.log('Server on port', app.get('port'));

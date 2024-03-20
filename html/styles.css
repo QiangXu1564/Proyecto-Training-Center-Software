@@ -86,7 +86,7 @@ body{
 }
 
 .MesYou{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -94,7 +94,7 @@ body{
 }
 
 .logo{
-    width: 8vw;
+    width: 7.5vw;
     padding-right: 1.5vw;
 }
 
@@ -108,7 +108,7 @@ body{
     color: black;
 
     width: 25vw;
-    height: 27vw;
+    height: 28.5vw;
     margin-top: 3vw;
     margin-bottom: 1vw;
     display: flex;
@@ -160,7 +160,6 @@ body{
 .chat::-webkit-scrollbar {
     display: none;
 }
-
 
 .chat-title{
     margin: 2.5vw;
